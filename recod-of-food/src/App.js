@@ -1,12 +1,14 @@
 import firebase from "./firebase";
+import Router from "./Router"
+import Header from "./Header";
 
 function App() {
-    console.log(firebase)
-  return (
-    <div className="App">
-      <h1> Hello! </h1>
-    </div>
-  );
+    return (
+        <>
+            <Header/>
+            <Router/>
+        </>
+    );
 }
 
 export default App;
